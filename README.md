@@ -13,13 +13,13 @@ Quick start
 
 Host config (stdio)
 -------------------
-Add under `mcpServers` (update `cwd` to your clone path):
+Add under `mcpServers` (update `cwd` to your absolute repo path):
 ```json
 "coss-mcp": {
   "type": "stdio",
   "command": "npm",
   "args": ["run", "dev"],
-  "cwd": "C:/Users/burns/OneDrive/Desktop/Coding/coss MCP"
+  "cwd": "C:/path/to/your/coss-mcp"
 }
 ```
 
@@ -28,7 +28,7 @@ If your host cannot set `cwd` (Windows example):
 "coss-mcp": {
   "type": "stdio",
   "command": "cmd",
-  "args": ["/c", "cd /d C:\\Users\\burns\\OneDrive\\Desktop\\Coding\\coss MCP && npm run dev"]
+  "args": ["/c", "cd /d C:\\path\\to\\your\\coss-mcp && npm run dev"]
 }
 ```
 
