@@ -2,6 +2,7 @@ coss-mcp
 ========
 
 MCP stdio server exposing tools for coss.com pages and Coss UI docs.
+Not affiliated with Coss.
 
 Quick start
 -----------
